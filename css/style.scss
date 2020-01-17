@@ -1,0 +1,89 @@
+// /** standard color **/
+
+// $main-bg-color: #000;
+// $primary-color: #fff;
+// $secondary-color: #1a7def;
+
+// $button-color: #1a7def;
+
+// $font-color-1: #fff;
+// $font-color-2: #1a7def;
+// $font-color-3: #878ef6;
+
+// $icon-color-1: #fff;
+
+
+// /** standard font **/
+
+// $main-font-family: 'Lato', sans-serif;
+// $secondary-font-family: 'Roboto', sans-serif;
+
+// $font-size-1: 34px;
+// $font-size-2: 24px;
+// $font-size-3: 18px;
+// $font-size-4: 14px;
+// $font-size-5: 12px;
+
+// $icon-size-1: 34px;
+// $icon-size-2: 14px;
+// $icon-size-3: 10px;
+
+
+// /** main style **/
+
+// body {
+//     // background: $main-bg-color;
+//     background: $primary-color;
+//     overflow: hidden;
+// }
+
+// h1, h2, h3, h4, h5, h6, span, label {
+//     color: $primary-color;
+// }
+
+// /** nav style **/
+
+// .header-nav {
+//     background: $main-bg-color;
+//     width: 100%;
+//     height: 60px;
+//     padding: 0 20px;
+// }
+
+// .nav-item-wrapper {
+//     width: 80%;
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+// .nav-icon-wrapper {
+//     width: 200px;
+
+//     img {
+//         margin-top: 4px;
+//         width: 100%;
+//     }
+// }
+
+// .nav-item {
+//     margin: auto 0;
+
+//     span {
+//         margin: 0 20px;
+//     }
+// }
+
+// /** custom font **/
+@import './scss/global';
+
+// /** color **/
+@import './scss/variable';
+
+// /** custom style **/
+@import './scss/main';
+@import './scss/nav';
+@import './scss/header';
+@import './scss/about';
+@import './scss/skills';
+@import './scss/portfolios';
+@import './scss/contact_follow';
